@@ -1,6 +1,22 @@
 ---
-title: Home | Celeste Design
+title: Home
 layout: default
 ---
 
-<h2>Welcome to Celeste Design</h2>
+<h2>Here are a few of my projects.</h2>
+
+<hr />
+
+<div class="row">
+  {% for post in site.posts %}
+    <div class="post col-sm-12 col-md-6 col-lg-4 col-xl-3">
+      <a href="{{ post.url }}">
+        <img class="cover" src={{ post.cover }}></img>
+        <h3>{{ post.title }}</h3>
+      </a>
+      <p>
+        {{ post.categories | join: ', ' }}
+      </p>
+    </div>
+  {% endfor %}
+</div>

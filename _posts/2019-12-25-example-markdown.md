@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Example Post"
+title:  "Example Post - Markdown"
 author: Céleste
-date:   2019-12-24 09:44:50 +0000
+date:   2019-12-25 09:44:50 +0000
 categories: jekyll update
 cover: /images/cover.jpg
 
@@ -11,7 +11,7 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll.
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
